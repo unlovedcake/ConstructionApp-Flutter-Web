@@ -10,6 +10,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../controllers/local-storage.dart';
 import '../../router/routes-name.dart';
 import '../../widgets/dialog-add-new-customer.dart';
+import '../customer/customer-ui.dart';
 
 class DrawerMenu extends StatelessWidget {
   DrawerMenu({Key? key}) : super(key: key);
@@ -48,6 +49,7 @@ class DrawerMenu extends StatelessWidget {
             svgSrc: 'assets/icons/Dashboard.svg',
             trailing: null,
             tap: () {
+              //Navigator.of(context).pushNamed(RoutesName.CUSTOMER_URL);
               context.read<Controller>().setIndexContentPage(1);
 
             },

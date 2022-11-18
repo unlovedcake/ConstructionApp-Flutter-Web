@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_admin_dashboard/controllers/service.dart';
 import 'package:responsive_admin_dashboard/router/routes-name.dart';
+import 'package:responsive_admin_dashboard/screens/customer/customer-ui.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../constants/constants.dart';
@@ -62,6 +63,17 @@ class RouteGenerator {
     switch (settings.name) {
 
 
+      case RoutesName.CUSTOMER_URL:
+
+        if(LocalStorageHelper.getValue('isLoggedIn') != 'true' ){
+          print("LOGIN PAGE");
+          return GeneratePageRoute(widget: const Login(), routeName: settings.name);
+        }else{
+          print("Customer Page");
+          return GeneratePageRoute(widget:  CustomerUI(), routeName: '/customer');
+
+        }
+
       case RoutesName.LOGIN_URL:
 
 
@@ -93,13 +105,6 @@ class RouteGenerator {
           return GeneratePageRoute(widget:  DashBoardScreen(), routeName: settings.name);
         }
 
-
-
-
-
-
-
-        break;
       // case RoutesName.PROFILE_URL:
       //   return GeneratePageRoute(widget:  ProfilePage(), routeName: settings.name);
       //

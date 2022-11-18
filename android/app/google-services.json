@@ -1,0 +1,628 @@
+{
+  "project_info": {
+    "project_number": "1097716892293",
+    "firebase_url": "https://goodkredit-175205.firebaseio.com",
+    "project_id": "goodkredit-175205",
+    "storage_bucket": "goodkredit-175205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:6f891b16658ba08843dfec",
+        "android_client_info": {
+          "package_name": "com.example.paydaytoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:59f159cfc343941e43dfec",
+        "android_client_info": {
+          "package_name": "com.example.timeattendantrfid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-4h7mjri4vmjouhofjepr3outj3ofo1c9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timeattendantrfid",
+            "certificate_hash": "a4ba3f5054253034a770dda650877511596ba8b2"
+          }
+        },
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:dfd5cc685fd0fd6443dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.afcssyncutility"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:499a6a286c14d9d543dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.androidpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:cfcab302fa8bf91243dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.androidpos.kiosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:3c805d005669cea643dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.balancelinkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:9c8abfce91b8c61e43dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.gkelection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-3u41nq7j368a5dud3kje7mjgggo40u0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodkredit.gkelection",
+            "certificate_hash": "27aa79794d94e8ffe9484ecd84b3e4bce6ea3ac7"
+          }
+        },
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:ea425b4dca21ff45",
+        "android_client_info": {
+          "package_name": "com.goodkredit.goodkreditsponsor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:ca1bb50316ce329d43dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.jeepneyrfid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:3e7f27b344817d4643dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.jeepneyrfid.kiosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-h0b9qg9v7umq72khtlhrfb76f5kqmnh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodkredit.jeepneyrfid.kiosk",
+            "certificate_hash": "340172c41c7487ff75e7dca9e15d96afdfd9e828"
+          }
+        },
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:30e3100e642d0d49",
+        "android_client_info": {
+          "package_name": "com.goodkredit.malaysia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:4fc28d3496d054a1",
+        "android_client_info": {
+          "package_name": "com.goodkredit.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:2ba113520386875143dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.myapplication.paydaytoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-u2t3s896v7k5m5629e8mlkf47l31fs0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodkredit.myapplication.paydaytoday",
+            "certificate_hash": "a4ba3f5054253034a770dda650877511596ba8b2"
+          }
+        },
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:889e92d0a60e7bf743dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.sponsorreloading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097716892293:android:d54894a16606d42543dfec",
+        "android_client_info": {
+          "package_name": "com.goodkredit.sponsorreloading.kiosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK60z6iNo0oIEWFFTEJZksR_7OdxwKUko"
+        },
+        {
+          "current_key": "AIzaSyCzOntf4-ZofRuCs8mnFbCi1tki8Tn-eHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097716892293-vfkos3bdflf41apnb0sbo1fikh6j464r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097716892293-duvn0lbcc5fakr6o339am2deu0advbgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodapps.Goodkredit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

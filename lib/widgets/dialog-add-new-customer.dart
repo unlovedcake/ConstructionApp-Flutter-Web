@@ -1,5 +1,9 @@
 
 
+import 'dart:typed_data';
+
+import 'package:file_picker/file_picker.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -23,6 +27,9 @@ class ShowDialogAddCustomer {
     final TextEditingController address = TextEditingController();
     final TextEditingController contact = TextEditingController();
 
+    double progress = 0.0;
+
+    String imageUrlPost = '';
 
 
     return await showDialog(
@@ -72,6 +79,56 @@ class ShowDialogAddCustomer {
                           decoration:
                           InputDecoration(hintText: "Contact",labelText: 'Contact',hintStyle: TextStyle(fontSize: 12)),
                         ),
+
+                        TextButton(onPressed: () async{
+
+                          FilePickerResult? result =
+                              await FilePicker.platform.pickFiles();
+
+                          if (result != null) {
+                            Uint8List? file = result.files.first.bytes;
+                            String fileName = result.files.first.name;
+
+                            try {
+                              TaskSnapshot upload = await FirebaseStorage.instance
+                                  .ref(
+                                  'Post-Images/$fileName')
+                                  .putData(
+                                file!,
+                                SettableMetadata(contentType: 'image/png'),
+                              );
+
+                              imageUrlPost = await upload.ref.getDownloadURL();
+
+                              print(imageUrlPost);
+                            } catch (e) {}
+
+
+                            // UploadTask task = FirebaseStorage.instance
+                            //     .ref()
+                            //     .child("files/$fileName")
+                            //     .putData(file!);
+                            //
+                            // task.snapshotEvents.listen((event) {
+                            //   setState(() {
+                            //     progress = ((event.bytesTransferred.toDouble() /
+                            //         event.totalBytes.toDouble()) *
+                            //         100)
+                            //         .roundToDouble();
+                            //
+                            //     if (progress == 100) {
+                            //       event.ref
+                            //           .getDownloadURL()
+                            //           .then((downloadUrl){
+                            //         print(downloadUrl);
+                            //       });
+                            //     }
+                            //
+                            //
+                            //   });
+                            // });
+                          }
+                        }, child: Text("Upload Image")),
 
 
 

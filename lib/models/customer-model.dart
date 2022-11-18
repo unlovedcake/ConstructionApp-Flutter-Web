@@ -88,6 +88,8 @@ class CustomerModel {
         lastName = doc.data()!["lastName"],
         address = doc.data()!["address"],
         phoneNumber = doc.data()!["phoneNumber"],
+        imageUrl = doc.data()!["imageUrl"],
         age = doc.data()!["age"];
+
 
 }

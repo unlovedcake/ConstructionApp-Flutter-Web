@@ -63,4 +63,67 @@ class CustomerProvider extends ChangeNotifier {
 
   }
 
+  updateCustomer(CustomerModel customerModel,BuildContext context)async{
+
+
+    try{
+
+      // showDialog(
+      //     context: context,
+      //     barrierDismissible: false,
+      //     builder: (BuildContext context) {
+      //       return ProgressDialog(
+      //         message: "Processing...",
+      //       );
+      //     });
+
+      await FirebaseFirestore.instance
+          .collection("table-customer")
+          .doc(customerModel.docID)
+          .update(customerModel.toMap())
+          .whenComplete(() async {
+
+        //Navigator.of(context).pushNamed(RoutesName.HOME_URL);
+        Navigator.of(context).pop();
+        Navigator.of(context).pop();
+        Fluttertoast.showToast(
+          msg: "Update Successfully. ",
+          timeInSecForIosWeb: 3,
+          gravity: ToastGravity.CENTER_RIGHT,
+        );
+      });
+      notifyListeners();
+    }catch(e){
+
+    }
+
+  }
+
+
+  deleteCustomer(CustomerModel customerModel,BuildContext context)async{
+
+
+    try{
+
+
+      await FirebaseFirestore.instance
+          .collection("table-customer")
+          .doc(customerModel.docID)
+          .delete()
+          .whenComplete(() async {
+
+        //Navigator.of(context).pushNamed(RoutesName.HOME_URL);
+
+        Fluttertoast.showToast(
+          msg: "${customerModel.firstName} was Deleted Successfully. ",
+          timeInSecForIosWeb: 3,
+          gravity: ToastGravity.CENTER_RIGHT,
+        );
+      });
+      notifyListeners();
+    }catch(e){
+
+    }
+
+  }
 }
